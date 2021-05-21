@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class='start'>
+    <h1 class="title">Choose a class</h1>
+    <div class="pick-class">
+        <button class="Knight" title="bruh">Knight</button>
+        <button class="Wizard">Wizard</button>
+        <button class="Rogue">Rogue</button>
+        <p class="classchosen"></p>
+        <button class="submit-class">Submit</button>
+    </div>
+</div>
+    <div class="cl" >Combat Log:<br><div id="combatlog"class="combatlog"></div></div>
+    <div class="inv">Inventory:<br><div class="inventory"></div></div>
+    <div class="character-1">
+        <h3>Character Screen:</h3>
+        <p class="playerclass">Class: </p>
+        <p class="playerhealth">HP: <p class="playerhp"></p></p>
+        <p class="playerlevel">LV: <p class="playerxp"></p></p>
+        <button class="attack-1"></button>
+        <button class="attack-2"></button>
+        <button class="special" disabled></button>
+        <button class="item-1"></button>
+        <button class="item-2"></button><br>
+        <button class="launchatk" id="launchatk">Launch Attack</button>
+        <p class="stats">Stats:<br>
+             <div class="ATK">ATK:</div>
+             <div class="DEF">DEF:</div>
+             <div class="AGL">AGL:</div>
+        </p>
+    </div>
+    <div class="fight">
+        <button class="start-fight">Start Battle</button>
+    </div>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
